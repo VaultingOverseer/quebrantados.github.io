@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Terra Arrasada - Um projeto de jogo ambientado em um mundo pós-apocalíptico">
+    <title>Terra Arrasada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho com nome do projeto -->
+    <header>
+        <div class="container">
+            <h1>Terra Arrasada</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projeto">O Projeto</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção de introdução com breve apresentação do projeto -->
+    <section id="introducao">
+        <div class="container">
+            <h2>Bem-vindo ao Terra Arrasada</h2>
+            <p>Explore um mundo destruído onde cada escolha importa. Guie Andy em sua jornada por uma terra devastada e faça decisões que moldarão seu futuro.</p>
+            <a href="#projeto" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <!-- Seção 'Sobre' com mais detalhes -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre o Jogo</h2>
+            <p>Terra Arrasada é um jogo de escolhas ambientado em um futuro pós-apocalíptico. O jogador toma decisões que afetam a narrativa e o destino dos personagens.</p>
+            <img src="imagens/jogo_preview.png" alt="Imagem do Jogo" class="imagem-jogo">
+        </div>
+    </section>
+
+    <!-- Seção 'O Projeto' explicando os bastidores -->
+    <section id="projeto">
+        <div class="container">
+            <h2>O Projeto</h2>
+            <p>Este projeto é parte de uma iniciativa escolar para desenvolver um jogo usando HTML, CSS e JavaScript, com foco em narrativas imersivas e decisões significativas.</p>
+            <a href="jogo.html" class="btn">Jogar Agora</a>
+        </div>
+    </section>
+
+    <!-- Seção de contato para possíveis feedbacks ou colaborações -->
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Tem perguntas ou gostaria de saber mais? Entre em contato através do formulário abaixo:</p>
+            <form action="#" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé com links e créditos -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Terra Arrasada - Todos os direitos reservados.</p>
+            <nav>
+                <ul>
+                    <li><a href="#privacidade">Política de Privacidade</a></li>
+                    <li><a href="#termos">Termos de Uso</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
